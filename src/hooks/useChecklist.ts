@@ -12,7 +12,12 @@ export function useChecklist(quests: IQuest[]) {
 
     if (rawChecklist) {
       const parsedChecklist = JSON.parse(rawChecklist);
-      setChecklist(parsedChecklist);
+      setChecklist((initial) => {
+        return initial.map((value, index) => {
+          const parsedValue = parsedChecklist[index];
+          return parsedValue ? parsedValue : value;
+        });
+      });
     }
   });
 

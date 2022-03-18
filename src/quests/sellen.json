@@ -1,0 +1,55 @@
+{
+  "questTitle": "Sellen's Questline",
+  "steps": [
+    {
+      "title": "Meet Sellen at the cellar in the Waypoint Ruins in Limgrave",
+      "description": "",
+      "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=707&lat=-193.273437&lng=114.989218&zoom=8&code=mapA"
+    },
+    {
+      "title": "Retrieve the Comet Azur sorcery from Primeval Sorcerer Azur in Mt. Gelmir",
+      "description": "",
+      "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+map?id=2304&lat=-89.71875&lng=70.272964&zoom=8&code=mapA"
+    },
+    {
+      "title": "Talk to Sellen at Waypoint Ruins",
+      "description": "",
+      "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=707&lat=-193.273437&lng=114.989218&zoom=8&code=mapA"
+    },
+    {
+      "title": "Find Lusat in the Sellia Hideaway in Caelid",
+      "description": "",
+      "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=4476&lat=-174.64&lng=154.11&zoom=8&code=mapA"
+    },
+    {
+      "title": "Return to Waypoint Ruins and talk to Sellen",
+      "description": "",
+      "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=707&lat=-193.273437&lng=114.989218&zoom=8&code=mapA"
+    },
+    {
+      "title": "Speak to Sellen at Witchbane Ruins in Weeping Peninsula",
+      "description": "",
+      "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=2916&lat=-213.140625&lng=94.962104&zoom=8&code=mapA"
+    },
+    {
+      "title": "Head to Ranni's Rise in West Liurnia and transplant the Primal Glintstone",
+      "description": "",
+      "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=1802&lat=-106.421875&lng=50.012044&zoom=8&code=mapA"
+    },
+    {
+      "title": "Go to Redmane Castle in Caelid and talk to Jerren",
+      "description": "",
+      "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6528&lat=-195.78125&lng=157.812084&zoom=8&code=mapA"
+    },
+    {
+      "title": "Head back to Witchbane Ruins to find Jerren",
+      "description": "",
+      "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=826&lat=-212.90625&lng=96.246485&zoom=8&code=mapA"
+    },
+    {
+      "title": "Go to Raya Lucaria Grand Library to make your choice",
+      "description": "",
+      "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=1584&lat=-137.942&lng=55.205&zoom=8&code=mapA"
+    }
+  ]
+}

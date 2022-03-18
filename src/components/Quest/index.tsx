@@ -45,7 +45,7 @@ const Quest: React.FC<QuestProps> = (props) => {
             description={step.description}
             mapLink={step.mapLink}
             title={step.title}
-            checked={stepChecklist[stepIndex]}
+            checked={stepChecklist?.at(stepIndex) ?? false}
             key={step.title}
             onChangeHandler={(e) => onChangeHandler(e, questIndex, stepIndex)}
           />
