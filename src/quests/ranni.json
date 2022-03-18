@@ -1,5 +1,5 @@
 {
-  "questTitle": "Ranni Quest line",
+  "questTitle": "Ranni's Questline",
   "steps": [
     {
       "title": "Meet Ranni in Ranni's Rise at Caria Manor",
@@ -29,7 +29,7 @@
     {
       "title": "Head to Redmane Castle",
       "description": "",
-      "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=2799&lat=-184.97187&lng=136.09082&zoom=8&code=mapB"
+      "mapLink": "https://eldenring.wiki.fextralife.com/Interactive+Map?id=6528&lat=-195.78125&lng=157.812084&zoom=8&code=mapA"
     },
     {
       "title": "Defeat Radahn to free the stars",
