@@ -1,0 +1,7 @@
+.main {
+  padding: 1rem 2.5rem;
+
+  @media (max-width: 700px) {
+    padding: 1.5rem;
+  }
+}

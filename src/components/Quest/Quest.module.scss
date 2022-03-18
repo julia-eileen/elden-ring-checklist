@@ -1,0 +1,25 @@
+.container {
+  margin-bottom: 1rem;
+
+  .titleContainer {
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin-left: 0.5rem;
+      cursor: pointer;
+    }
+  }
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .stepsContainer {
+    display: none;
+
+    &.visible {
+      display: block;
+    }
+  }
+}

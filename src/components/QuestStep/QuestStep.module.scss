@@ -1,0 +1,38 @@
+.container {
+  margin-bottom: 0.5rem;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .titleContainer {
+    display: flex;
+    align-items: center;
+
+    svg {
+      margin-left: 0.5rem;
+
+      @media (max-width: 700px) {
+        flex-basis: 10%;
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    label {
+      display: flex;
+      align-items: center;
+      margin-bottom: 0;
+
+      @media (max-width: 700px) {
+        flex-basis: 90%;
+      }
+    }
+
+    input {
+      margin-right: 0.75rem;
+    }
+  }
+}
