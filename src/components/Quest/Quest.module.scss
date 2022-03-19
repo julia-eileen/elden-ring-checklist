@@ -20,6 +20,17 @@
 
     &.visible {
       display: block;
+      animation: fadeIn 500ms ease-in;
     }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }
