@@ -1,6 +1,9 @@
+import { useMount } from '@vortigo/react-hooks';
 import { useCallback, useState } from 'react';
 import { FaAngleDown, FaAngleUp } from 'react-icons/fa';
 import { IQuest } from '../../types/IQuest';
+import { getQuestsTabs } from '../../utils/getQuestsTabs';
+import { setQuestsTabs } from '../../utils/setQuestsTabs';
 import QuestStep from '../QuestStep';
 import QuestTitle from '../QuestTitle';
 
@@ -21,10 +24,18 @@ const Quest: React.FC<QuestProps> = (props) => {
   const { quest, stepChecklist, onChangeHandler, questIndex } = props;
   const [isStepsVisible, setStepsVisibility] = useState(false);
 
-  const toggleStepsVisibility = useCallback(
-    () => setStepsVisibility((v) => !v),
-    []
-  );
+  useMount(() => {
+    const questsTabs = getQuestsTabs();
+    const questTabVisibility = questsTabs[quest.questTitle];
+    if (questTabVisibility) setStepsVisibility(questTabVisibility);
+  });
+
+  const toggleStepsVisibility = useCallback(() => {
+    setStepsVisibility((v) => {
+      setQuestsTabs({ [quest.questTitle]: !v });
+      return !v;
+    });
+  }, [quest.questTitle]);
 
   const stepsClasses = [styles.stepsContainer];
   if (isStepsVisible) stepsClasses.push(styles.visible);
