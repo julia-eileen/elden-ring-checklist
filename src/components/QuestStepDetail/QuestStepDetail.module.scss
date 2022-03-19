@@ -1,10 +1,18 @@
 .container {
-  display: none;
+  display: flex;
+  flex-direction: column;
   margin: 0.25rem 0 0 2.25rem;
+  opacity: 0;
+  transition: max-height 0.8s cubic-bezier(0, 1, 0, 1) -0.1s,
+    opacity 0.4s ease-in;
+  max-height: 0;
+  overflow: hidden;
 
   &.visible {
-    display: flex;
-    flex-direction: column;
+    max-height: 9999px;
+    transition-timing-function: cubic-bezier(0.5, 0, 1, 0);
+    transition-delay: 0s;
+    opacity: 1;
 
     p {
       margin: 0 0 0.5rem;

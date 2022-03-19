@@ -26,6 +26,7 @@
     width: 25px;
     border-radius: 8px;
     background-color: #eee;
+    transition: background-color 200ms ease-in;
   }
 }
 
@@ -40,12 +41,13 @@
 .checkmark:after {
   content: '';
   position: absolute;
-  display: none;
+  opacity: 0;
+  transition: opacity 200ms ease-in;
 }
 
 /* Show the checkmark when checked */
 .container input:checked ~ .checkmark:after {
-  display: block;
+  opacity: 1;
 }
 
 /* Style the checkmark/indicator */
